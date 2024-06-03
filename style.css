@@ -1,0 +1,461 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #0a0a0a; /* Dark space background */
+    color: #ffffff; /* White text */
+}
+
+.header {
+    padding: 20px;
+    background-color: #050505; /* Darker shade for header */
+    border-bottom: 3px solid #1c1c1c; /* Border color */
+}
+
+.head,
+.headd {
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.halfHead {
+    color: #a2d9ff; /* Light blue for halfHead */
+}
+
+.fa-renren {
+    color: #a2d9ff; /* Light blue for icon */
+}
+
+.logInBtnNavBar {
+    float: right;
+    border: none;
+    background-color: #1976d2; /* Blue login button */
+    color: #ffffff;
+    padding: 9px;
+    font-size: 120%;
+    letter-spacing: 1px;
+    outline: none;
+    border-radius: 10px;
+    transition: 0.7s;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+}
+
+.logInBtnNavBar:hover {
+    background-color: #004ba0; /* Darker blue on hover */
+}
+
+.area,
+.adminPanelLogin,
+.employeePanelLogin {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    background-color: #0a0a0a; /* Dark space background */
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: center;
+    top: 0;
+    left: 0;
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.7s;
+}
+
+.closebtn:hover {
+    color: #a2d9ff; /* Light blue on hover */
+}
+
+/***************************************************************************************/
+.displaySide {
+    width: 200px;
+}
+
+.displaySidee {
+    width: 100%;
+}
+
+.panels {
+    color: #a2d9ff; /* Light blue for panel text */
+    font-size: 120%;
+    width: 20%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: #0a0a0a; /* Dark background */
+}
+
+.fa-angle-double-down {
+    color: #ffffff; /* White for icon */
+    font-size: 110%;
+    margin-bottom: 5px;
+}
+
+.panelBtn {
+    border: none;
+    background: none;
+    outline: none;
+    color: #ffffff;
+    background-color: #1976d2; /* Blue button */
+    border: 1px solid #a2d9ff; /* Light blue border */
+    padding: 12px;
+    margin: 5px;
+    width: 80%;
+    font-size: 110%;
+    border-radius: 10px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.panelBtn:hover {
+    background-color: #004ba0; /* Darker blue on hover */
+}
+
+.intro {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.abot {
+    padding-top: 10px;
+    width: 100%;
+    background-color: #22252A; /* Darker background */
+    border-top: 3px solid #a2d9ff; /* Light blue border */
+    text-align: center;
+    color: #ffffff;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    background-color: #0a0a0a; /* Dark background */
+    border-radius: 50%;
+    margin: 10px auto;
+    overflow: hidden;
+    border: 4px solid #ffffff; /* White border */
+    cursor: pointer;
+}
+
+.bio {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.welcomeHead {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 320%;
+    color: #56d88f; /* Light green for header */
+    height: 60px;
+    width: 0;
+    overflow: hidden;
+    transition: width 0.7s;
+}
+
+.welcomeSubHead {
+    text-align: center;
+    margin: 0;
+    color: #a2d9ff; /* Light blue for subheading */
+    letter-spacing: 1px;
+}
+
+.subScribeBtn {
+    background: none;
+    border: none;
+    border: 2px solid #a2d9ff; /* Light blue border */
+    font-size: 120%;
+    border-radius: 15px;
+    padding: 10px;
+    padding-top: 12px;
+    color: #22252A; /* Darker background */
+    outline: none;
+    transition: 1s;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.subScribeBtn:hover {
+    background-color: #a2d9ff; /* Light blue background on hover */
+    color: #ffffff; /* White text on hover */
+}
+
+.coma {
+    color: #a2d9ff; /* Light blue text */
+    font-size: 150%;
+}
+
+.samoohead {
+    width: 40%;
+    margin: 20px auto 10px;
+    padding: 10px;
+    background-color: #0a0a0a; /* Dark background */
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+form {
+    text-align: left;
+    margin: 0;
+    padding: 2px 20px 2px 15px;
+}
+
+.signUpForm {
+    width: 40%;
+    margin: 0 auto;
+    background-color: #22252A; /* Darker background */
+    border-radius: 8px;
+}
+
+.signUpHeading {
+    margin-top: 0;
+    background-color: #454955; /* Darker background */
+    padding: 10px;
+    color: #82858E; /* Light gray text */
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    font-size: 150%;
+}
+
+/******************************************************************************************/
+.text {
+    color: #ffffff; /* White text */
+    font-size: 80%;
+}
+
+.input {
+    background: none;
+    border: none;
+    background-color: #0a0a0a; /* Dark background */
+    padding: 10px;
+    margin: 8px auto;
+    width: 97%;
+    border-radius: 5px;
+    color: #ffffff; /* White text */
+    outline: none;
+    transition: 1s;
+}
+
+.input::placeholder {
+    color: #82858E; /* Light gray placeholder */
+}
+
+.inputfocus {
+    background-color: #0a0a0a; /* Dark background */
+    border: none;
+    border-bottom: 1px solid #ffc400; /* Yellow bottom border */
+    transition: 0.5s;
+}
+
+.inputfocus::placeholder {
+    color: #ffffff; /* White placeholder on focus */
+}
+
+.agreement {
+    color: #828282; /* Light gray text */
+    font-size: 80%;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.submitBtn {
+    background: none;
+    border: none;
+    background-color: #38a4e7; /* Blue button */
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    color: #ffffff; /* White text */
+    font-weight: bold;
+    letter-spacing: 1px;
+    width: 30%;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.submitBtn:hover {
+    background-color: #454955; /* Darker background on hover */
+}
+
+.acc {
+    color: #828282; /* Light gray text */
+    font-size: 80%;
+}
+
+.acc:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.error {
+    float: right;
+    color: #e76060; /* Red error text */
+    display: none;
+    cursor: pointer;
+}
+
+.error:hover {
+    text-decoration: underline;
+}
+
+#display,
+#display1 {
+    color: #ffae00; /* Yellow text */
+    letter-spacing: 1px;
+    display: none;
+}
+
+#display1 {
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+#error2 {
+    background-color: #fa7d7d; /* Light red background */
+    width: 80%;
+    padding: 10px;
+    margin: 5px auto 10px;
+    border-radius: 10px;
+    color: #660505; /* Dark red text */
+    display: none;
+}
+
+.chota {
+    font-size: 50%;
+    color: #38a4e7; /* Blue text */
+}
+
+.heading1 {
+    color: #82858E; /* Light gray text */
+    font-size: 250%;
+    margin: 20px auto 5px;
+    letter-spacing: 1px;
+    background-color: #22252A; /* Darker background */
+    width: 80%;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.panelHeading {
+    color: #57ce57; /* Light green for panel heading */
+    margin: 0px;
+    padding: 10px;
+    border: 1px solid #ffffff; /* White border */
+    width: 30%;
+    margin: 0px auto;
+}
+
+.footerr {
+    border-top: 3px solid #57ce57; /* Light green border */
+    padding: 20px;
+    text-align: center;
+    margin: 0px;
+    color: #bdb9b9; /* Light gray text */
+}
+
+@media only screen and (max-width: 600px) {
+    .signUpForm {
+        width: 90%;
+    }
+
+    .submitBtn {
+        width: 40%;
+    }
+
+    .heading1 {
+        width: 80%;
+        font-size: 150%;
+    }
+
+    .heading2 {
+        font-size: 120%;
+    }
+
+    .input {
+        width: 95%;
+    }
+
+    .acc {
+        font-size: 70%;
+    }
+
+    .panels {
+        width: 60%;
+    }
+
+    #error2 {
+        font-size: 85%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .header {
+        font-size: 80%;
+    }
+
+    .logInBtnNavBar {
+        width: 25%;
+        font-size: 100%;
+    }
+
+    .welcomeSubHead {
+        font-size: 70%;
+    }
+
+    .samoohead {
+        width: 70%;
+    }
+
+    .bio {
+        font-size: 90%;
+    }
+
+    .coma {
+        font-size: 110%;
+    }
+
+    .employeePanelLogin {
+        padding-top: 20px;
+    }
+
+    .headd {
+        margin-bottom: 10px;
+        padding: 0px;
+    }
+
+    .footer {
+        font-size: 95%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .head {
+        font-size: 190%;
+    }
+
+    .logInBtnNavBar {
+        font-size: 100%;
+        width: 28%;
+    }
+
+    .headd {
+        font-size: 120%;
+    }
+
+    .footer {
+        font-size: 70%;
+    }
+}
